@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <title>Stupid Coaching</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Stupid Coaching</h1>
+    <div class="container">
+      <%= @question %>
+      <br>
+      <p>- You</p>
+      <%= @answer %>
+      <br>
+      <p>- Your coach</p>
+      <%= link_to "Ask a new question", ask_path %>
+      </div>
+  </div>
+</body>
+</html>
